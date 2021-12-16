@@ -1,0 +1,25 @@
+name: score-sde
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip
+  - pytorch>=1.10
+  - cudatoolkit=11.5
+  - tensorflow
+  - torchvision
+  - tensorboard
+  - absl-py
+  - ninja
+  - pip:
+    - ml-collections
+    - tensorflow-gan
+    - tensorflow_io
+    - tensorflow_datasets
+    - tensorflow-addons
+    - wandb
+  
+
+  
